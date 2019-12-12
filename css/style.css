@@ -108,7 +108,7 @@ margin-left: 20px;
 .main-content {
   width: calc(100% - 320px);
   height: 100%;
-  background-color: orange;
+  background-color: #282B34;
   overflow-y: scroll;
   padding-top: 100px;
 }
