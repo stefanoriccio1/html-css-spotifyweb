@@ -4,12 +4,16 @@
   box-sizing: border-box;
   font-size: 14px;
 }
-
+/* general */
 body {
   background-color: black;
   font-family: 'Poppins', sans-serif;
 }
 
+h2{
+
+}
+/* wrapper */
 .wrapper {
   width: 100%;
   height: 100vh;
@@ -133,6 +137,7 @@ body {
 }
 /* page selection */
 
+/* selection menu */
 .selection {
   display: flex;
   justify-content: center;
@@ -165,6 +170,20 @@ body {
   margin: 0 auto;
   background-color: #64D761;
 }
+/* effetto apparizione barra al click (in sospeso) */
+.bar_hidden{
+  display: none;
+  height: 3px;
+  width: 50%;
+  border-radius: 80px;
+  margin: 0 auto;
+  background-color: #64D761;
+}
+.pages li a:hover{
+  color: white;
+}
+/* album menu */
+
 
 /* footer */
 .footer {
