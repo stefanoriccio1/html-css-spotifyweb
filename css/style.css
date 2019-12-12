@@ -139,6 +139,11 @@ body {
   flex-wrap: wrap;
   margin-bottom: 30px;
 }
+.pages{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .pages li{
   display: inline-block;
   list-style: none;
