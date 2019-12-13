@@ -201,17 +201,35 @@ margin-left: 20px;
 .img_album{
   position: relative;
 }
-.fa-play-circle{
+.layover{
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 97%;
+  background-color: rgba(0,0,0,0.5);
   display: none;
+}
+.fa-play-circle{
+  visibility: hidden;
   position: absolute;
   top: 35%;
-  left: 40%;
+  left: 35%;
   transform: translate(-50% -50%);
   color: white;
-  font-size: 50px;
+  font-size: 4rem;
+}
+
+.album_box:hover .fa-play-circle{
+  visibility: visible;
+}
+.album_box:hover .layover{
+  display: block;
 }
 .img_album img{
   width: 100%;
+
 }
 .subtitle{
   text-align: center;
