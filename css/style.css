@@ -190,6 +190,9 @@ margin-left: 20px;
   text-decoration: underline;
   cursor: pointer;
 }
+.first_row{
+  margin-bottom: 40px;
+}
 .album{
   display: flex;
   justify-content: space-between;
@@ -242,6 +245,18 @@ margin-left: 20px;
   font-weight: bold;
   font-size: 80%;
   color: white;
+}
+
+/* second row */
+.album_second{
+  display: flex;
+  justify-content: space-between;
+  margin: auto 20px;
+  width: 33%;
+}
+.album_second .album_box{
+  flex-basis: 160px;
+  margin-right: 25px;
 }
 
 
