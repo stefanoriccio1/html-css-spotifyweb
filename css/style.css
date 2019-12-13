@@ -316,6 +316,10 @@ margin-left: 20px;
   margin-left: 20px;
   color: #7E7E7E;
 }
+.left_box_footer li .fa-heart:hover,
+.left_box_footer li .fa-folder:hover{
+  color: white;
+}
 #footer_list_title{
 color: white;
 }
@@ -323,6 +327,11 @@ color: white;
   font-size: 10px;
   white-space: nowrap;
   color: #7E7E7E;
+}
+#footer_list_title:hover,
+#footer_list_subtitle:hover{
+  text-decoration: underline;
+  cursor: default;
 }
 .left_box_footer img{
   width: 60px;
@@ -341,7 +350,6 @@ flex-grow: 2;
 .buttons ul li{
   display: inline-block;
   list-style: none;
-
 }
 .buttons ul li i{
   font-size: 18px;
@@ -350,6 +358,10 @@ flex-grow: 2;
 }
 .buttons ul li .footer_icon{
   font-size: 27px;
+  transition: all .2s ease-in-out
+}
+.buttons ul li .footer_icon:hover{
+  transform: scale(1.1);
 }
 
 .time_bar{
