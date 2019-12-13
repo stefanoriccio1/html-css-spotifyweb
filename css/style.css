@@ -344,13 +344,14 @@ flex-grow: 2;
 
 }
 .buttons ul li i{
-  font-size: 20px;
-  margin-right: 10px;
+  font-size: 18px;
+  margin-right: 8px;
   color: white;
 }
 .buttons ul li .footer_icon{
-  font-size: 30px;
+  font-size: 27px;
 }
+
 .time_bar{
   height: 3px;
   width: 50%;
