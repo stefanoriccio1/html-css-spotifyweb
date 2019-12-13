@@ -313,6 +313,10 @@ margin-left: 20px;
   list-style: none;
   margin-right: 10px;
 }
+.left_box_footer li:last-child{
+  margin-left: 20px;
+  color: #7E7E7E
+}
 #footer_list_title{
 color: white;
 }
