@@ -336,7 +336,7 @@ flex-grow: 2;
   text-align: center;
   width: 70%;
   white-space: nowrap;
-  margin-left: auto;
+  margin:auto;
 }
 .buttons ul li{
   display: inline-block;
@@ -368,3 +368,31 @@ flex-grow: 2;
   background-color: #7E7E7E;
 }
 /* volume bar */
+.volume_bar{
+  display: inline-block;
+  flex-basis: 60px;
+  margin-left: 10px;
+}
+.volume_bar ul{
+display: flex;
+align-items: center;
+}
+.volume_bar ul li{
+  list-style: none;
+  font-size: 20px;
+  margin-right: 10px;
+  color: white;
+}
+.volume_bar ul li:last-child{
+  height: 3px;
+  width: 50px;
+  border-radius: 80px;
+  background-color: #323232;
+}
+.volume_up{
+  height: 3px;
+  width: 30%;
+  border-radius: 80px;
+  margin-left: 0;
+  background-color: #7E7E7E;
+}
