@@ -13,14 +13,21 @@ body {
 h2{
 font-size: 20px;
 color: white;
-margin-bottom: 10px;
 margin-left: 20px;
+}
+.text p{
+  margin-left: 20px;
+  font-size:70%;
+  color: #7E7E7E;
+}
+.text{
+  margin-bottom: 15px;
 }
 /* wrapper */
 .wrapper {
   width: 100%;
   height: 100vh;
-  background-color: red;
+  /* background-color: red; */
 }
 
 /* Fixed */
@@ -119,6 +126,7 @@ margin-left: 20px;
   position: fixed;
   top: 0;
   right: 0;
+  z-index: 5;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -193,6 +201,9 @@ margin-left: 20px;
 .first_row{
   margin-bottom: 40px;
 }
+.first_row h2{
+  margin-bottom: 15px;
+}
 .album{
   display: flex;
   justify-content: space-between;
@@ -248,15 +259,24 @@ margin-left: 20px;
 }
 
 /* second row */
-.album_second{
+.second_row{
+  margin-bottom: 40px;
+}
+.album_second,
+.album_third{
   display: flex;
   justify-content: space-between;
   margin: auto 20px;
-  width: 33%;
+  width: 31%;
 }
-.album_second .album_box{
+.album_second .album_box,
+.album_third .album_box{
   flex-basis: 160px;
-  margin-right: 25px;
+}
+
+/* third row */
+.album_third .album_box img{
+  border-radius: 50%;
 }
 
 
