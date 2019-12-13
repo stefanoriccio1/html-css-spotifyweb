@@ -278,6 +278,9 @@ margin-left: 20px;
 .album_third .album_box img{
   border-radius: 50%;
 }
+.third_row .layover{
+  border-radius: 50%;
+}
 
 
 /* footer */
