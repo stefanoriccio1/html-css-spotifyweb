@@ -275,17 +275,18 @@ margin-left: 20px;
 }
 
 /* third row */
+.third_row{
+  margin-bottom: 40px;
+}
 .album_third .album_box img{
   border-radius: 50%;
 }
 .third_row .layover{
   border-radius: 50%;
 }
-
-
 /* footer */
 .footer {
   width: 100%;
   height: 90px;
-  background-color: pink;
+  background-color: #282828;
 }
