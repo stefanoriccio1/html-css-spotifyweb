@@ -329,7 +329,14 @@ color: white;
 }
 /* play bar */
 .play_bar{
-
+display: inline-block;
+flex-grow: 2;
+}
+.buttons{
+  text-align: center;
+  width: 70%;
+  white-space: nowrap;
+  margin-left: auto;
 }
 .buttons ul li{
   display: inline-block;
@@ -338,7 +345,7 @@ color: white;
 }
 .buttons ul li i{
   font-size: 20px;
-  margin-right: 20px;
+  margin-right: 10px;
   color: white;
 }
 .buttons ul li .footer_icon{
@@ -346,17 +353,18 @@ color: white;
 }
 .time_bar{
   height: 3px;
-  width: 100%;
+  width: 50%;
   border-radius: 80px;
   margin-top: 20px;
   margin-right: auto;
   margin-left: auto;
   background-color: #323232;
 }
-.time_bar_second{
+.time_second{
   height: 3px;
   width: 30%;
   border-radius: 80px;
   margin-left: 0;
   background-color: #7E7E7E;
 }
+/* volume bar */
