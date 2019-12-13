@@ -302,16 +302,25 @@ margin-left: 20px;
 .running_song{
   display: flex;
   flex-basis: 60px;
+  margin-left: 10px;
 }
 .left_box_footer{
   display: flex;
   align-items: center;
 }
 .left_box_footer li{
-  display: inline-block;
-
+  /* display: inline-block; */
+  list-style: none;
+  margin-right: 10px;
+}
+#footer_list_title{
+color: white;
+}
+#footer_list_subtitle{
+  font-size: 10px;
+  white-space: nowrap;
+  color: #7E7E7E;
 }
 .left_box_footer img{
-  width: 100%;
-
+  width: 60px;
 }
