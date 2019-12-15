@@ -547,6 +547,7 @@ align-items: center;
   .album_third{
     flex-wrap: wrap;
 }
+
   .main-nav{
     width: 80px;
   }
@@ -582,4 +583,17 @@ padding-left: 25px;
 .call-to-action {
   width: calc(100% - 80px);
 }
+}
+
+
+@media screen and (max-width: 992px){
+  .album,
+  .album_second,
+  .album_third{
+    flex-wrap: wrap;
+  }
+  .album_second,
+  .album_third{
+    width: 50%;
+  }
 }
