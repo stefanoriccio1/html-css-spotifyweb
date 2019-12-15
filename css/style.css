@@ -16,8 +16,8 @@ h2{
   margin-left: 20px;
 }
 .text p{
-  margin-left: 20px;
   font-size:70%;
+  margin-left: 20px;
   color: #7E7E7E;
 }
 .text{
@@ -103,14 +103,21 @@ h2{
   width: 40%;
   margin-top: 10px;
 }
+.logo_small{
+  width: 55%;
+  margin-top: 10px;
+  display:none;
+}
 .main-nav ul{
-  margin-top: 20px;
-  margin-bottom: 20px;
+  list-style: none;
   line-height: 20px;
   vertical-align: middle;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .main-nav ul li{
   margin-bottom: 10px;
+  color: #7E7E7E;
 }
 .main-nav ul li a{
   text-decoration: none;
@@ -119,11 +126,15 @@ h2{
 .main-nav ul li:hover a{
   color: white;
 }
+.main-nav-header ul li:hover{
+  color: white;
+}
 /* main nav main */
 .first_menu_sx{
+  vertical-align: middle;
   font-size: 25px;
   margin-right: 10px;
-  vertical-align: middle;
+  color: #7E7E7E;
 }
 .main-nav-main {
   min-height: 150px;
@@ -161,18 +172,27 @@ h2{
 }
 .fa-arrow-circle-down{
   margin-right: 5px;
+  color: #7E7E7E;
 }
 .footer_avatar{
+  display: inline-block;
   font-weight: bold;
   font-size: 20px;
   line-height: 20px;
   margin-bottom: 10px;
   color: white;
 }
+
 .fa-user-circle{
   font-size: 25px;
   vertical-align: middle;
   margin-right: 5px;
+  color: #7E7E7E;
+}
+.min_logo{
+  display: none;
+  margin-bottom: 10px;
+  font-size: 25px;
   color: #7E7E7E;
 }
 
@@ -276,7 +296,6 @@ h2{
 }
 .album{
   display: flex;
-  /* justify-content: space-between; */
   margin: auto 20px;
 
 }
@@ -523,11 +542,45 @@ align-items: center;
 
 /* media query */
 
-@media mediatype and (min-width: 562px){
-  .main_nav{
-    width: 50px;
+@media screen and (max-width: 562px){
+  .album,
+  .album_second,
+  .album_third{
+    flex-wrap: wrap;
+}
+  .main-nav{
+    width: 80px;
   }
   .logo{
-    display: none;
-  }
+  display: none;
+}
+.logo_small{
+  display: block;
+}
+.main-nav a,
+.main-nav .title_list,
+.main-nav .playlist,
+.separator,
+.main-nav p{
+  display: none;
+}
+.fa-arrow-circle-down{
+  margin-bottom: 10px;
+  margin-left: 8px;
+}
+.footer_avatar p .fa-user-circle{
+  display: block;
+}
+.main-nav{
+padding-left: 25px;
+}
+.min_logo{
+  display: block;
+}
+.main-content {
+  width: calc(100% - 80px);
+}
+.call-to-action {
+  width: calc(100% - 80px);
+}
 }
