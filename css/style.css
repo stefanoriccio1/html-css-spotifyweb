@@ -93,10 +93,35 @@ margin-left: 20px;
   justify-content: space-between;
   width: 320px;
   height: 100%;
-  background: blue;
+  padding-left: 10px;
+  background: black;
 }
 .main-nav-header {
-  background-color: purple;
+  background-color: black;
+}
+.logo{
+  width: 40%;
+}
+.main-nav ul{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+.main-nav ul li{
+  margin-bottom: 10px;
+}
+.main-nav ul li a{
+  text-decoration: none;
+  color: #7E7E7E;
+}
+.main-nav ul li:hover a{
+  color: white;
+}
+.first_menu_sx{
+  font-size: 25px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 .main-nav-main {
   min-height: 150px;
@@ -173,8 +198,8 @@ margin-left: 20px;
 .pages li a{
   text-decoration: none;
   font-size: 12px;
-  color: #7E7E7E;
   margin-left: 10px;
+  color: #7E7E7E;
 }
 .pages li a:first-child{
   text-align: center;
