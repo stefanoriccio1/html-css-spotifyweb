@@ -11,9 +11,9 @@ body {
 }
 
 h2{
-font-size: 20px;
-color: white;
-margin-left: 20px;
+  font-size: 20px;
+  color: white;
+  margin-left: 20px;
 }
 .text p{
   margin-left: 20px;
@@ -163,15 +163,17 @@ margin-left: 20px;
   margin-right: 5px;
 }
 .footer_avatar{
-font-size: 20px;
-line-height: 20px;
-margin-bottom: 10px;
-color: #7E7E7E;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  color: white;
 }
 .fa-user-circle{
   font-size: 25px;
   vertical-align: middle;
   margin-right: 5px;
+  color: #7E7E7E;
 }
 
 /* main content */
@@ -516,4 +518,16 @@ align-items: center;
 }
 .volume_up:hover .volume_up_circle{
   display: block;
+}
+
+
+/* media query */
+
+@media mediatype and (min-width: 562px){
+  .main_nav{
+    width: 50px;
+  }
+  .logo{
+    display: none;
+  }
 }
