@@ -189,13 +189,12 @@ h2{
   margin-right: 5px;
   color: #7E7E7E;
 }
-.min_logo{
+.footer_avatar .min_logo{
   display: none;
   margin-bottom: 10px;
   font-size: 25px;
   color: #7E7E7E;
 }
-
 /* main content */
 .main-content {
   width: calc(100% - 250px);
@@ -566,7 +565,7 @@ align-items: center;
 }
 .fa-arrow-circle-down{
   margin-bottom: 10px;
-  margin-left: 8px;
+  margin-left: 5px;
 }
 .footer_avatar p .fa-user-circle{
   display: block;
@@ -574,7 +573,7 @@ align-items: center;
 .main-nav{
 padding-left: 25px;
 }
-.min_logo{
+.footer_avatar .min_logo{
   display: block;
 }
 .main-content {
