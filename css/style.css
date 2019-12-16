@@ -304,8 +304,8 @@ h2{
 
 }
 .album .album_box{
-  flex-basis: 160px;
-  margin-right: 20px;
+  /* flex-basis: 160px; */
+  padding: 10px;
 }
 .img_album{
   position: relative;
@@ -360,9 +360,7 @@ h2{
 .album_second,
 .album_third{
   display: flex;
-  justify-content: space-between;
   margin: auto 20px;
-  width: 31%;
 }
 .album_second .album_box,
 .album_third .album_box{
@@ -566,13 +564,22 @@ align-items: center;
 
 /* media query */
 
+@media screen and (max-width: 1100px){
+  .album,
+  .album_second,
+  .album_third{
+    flex-wrap: wrap;
+}
+  .album_box{
+    width: calc(100% / 4);
+  }
+}
 @media screen and (max-width: 562px){
   .album,
   .album_second,
   .album_third{
     flex-wrap: wrap;
 }
-
   .main-nav{
     width: 80px;
   }
@@ -608,18 +615,7 @@ padding-left: 25px;
 .call-to-action {
   width: calc(100% - 80px);
 }
+.album_box{
+  width: calc(100% / 2);
 }
-
-
-@media screen and (max-width: 992px){
-  .album,
-  .album_second,
-  .album_third{
-    flex-wrap: wrap;
-  }
-  .album,
-  .album_second,
-  .album_third{
-    width: calc(100% - 80px);
-  }
 }
