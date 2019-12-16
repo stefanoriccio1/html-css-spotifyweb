@@ -6,6 +6,7 @@
 }
 /* general */
 body {
+  min-width: 500px;
   background-color: black;
   font-family: 'Poppins', sans-serif;
 }
@@ -397,7 +398,7 @@ h2{
 .running_song{
   display: flex;
   flex-basis: 60px;
-  margin-left: 10px;
+  padding: 10px;
 }
 .left_box_footer{
   display: flex;
@@ -596,8 +597,9 @@ padding-left: 25px;
   .album_third{
     flex-wrap: wrap;
   }
+  .album,
   .album_second,
   .album_third{
-    width: 50%;
+    width: calc(100% - 80px);
   }
 }
