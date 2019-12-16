@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -478,7 +478,7 @@ flex-grow: 2;
 }
 .time_circle{
   display: none;
-  position: absolute
+  position: absolute;
   top: 50%;
   transform: translateY(-40%);
   height: 10px;
@@ -525,7 +525,7 @@ align-items: center;
 }
 .volume_up_circle{
   display: none;
-  position: absolute
+  position: absolute;
   top: 50%;
   transform: translateY(-35%);
   height: 8px;
