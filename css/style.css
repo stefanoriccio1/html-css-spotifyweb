@@ -136,6 +136,10 @@ h2{
   margin-right: 10px;
   color: #7E7E7E;
 }
+.playlist{
+  height: 70%;
+  overflow-y: auto;
+}
 .main-nav-main {
   min-height: 150px;
   overflow-y: auto;
