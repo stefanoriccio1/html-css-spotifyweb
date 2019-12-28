@@ -536,6 +536,7 @@ align-items: center;
   background-color: #323232;
 }
 .volume_up{
+  position: relative;
   height: 3px;
   width: 30%;
   border-radius: 80px;
